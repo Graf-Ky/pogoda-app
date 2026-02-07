@@ -1,0 +1,33 @@
+{
+  "name": "vueproject2",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/umd": "^3.0.4",
+    "axios": "^1.8.4",
+    "cesium": "^1.137.0",
+    "crypto-convert": "^2.1.7",
+    "maplibre-gl": "^5.16.0",
+    "pinia": "^3.0.4",
+    "save": "^2.9.0",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.4",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.1",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Погода</title>
+    <script type="module" crossorigin src="/assets/index-XgOMw2FU.js"></script>
+  </head>
+  <body>
+    <video autoplay muted loop playsinline style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    ">
+      <source src="/video.mp4" type="video/mp4">
+    </video>
+  
+    <div id="app"></div>
+  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      
+      /* Фоновая картинка */
+      background-image: url('/1pic.jpg');
+      background-size: cover;        /* растягивает на весь экран */
+      background-position: center;   /* центрирует */
+      background-repeat: no-repeat;  /* не повторяет */
+    }
+    /* для всех <p> внутри #app */
+    #app p {
+    color: rgb(249, 249, 249);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.7);
+}
+
+input {
+    background: rgba(255,255,255,0.9);
+    color: #333;
+    width: 280px;          /* ← увеличил ширину */
+    padding: 12px;         /* чуть больше отступов */
+    font-size: 16px;       /* размер текста (включая placeholder) */
+    border-radius: 1px;
+    border: none;
+    text-align: center;
+  }  /* ... остальные стили ... */
+  </style>
+</html>
