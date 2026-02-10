@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Погода</title>
+    <script type="module" crossorigin src="/pogoda-app/assets/index-nTtjdA6K.js"></script>
   </head>
   <body>
     <video autoplay muted loop playsinline style="
@@ -15,11 +16,10 @@
       object-fit: cover;
       z-index: -1;
     ">
-      <source src="/video.mp4" type="video/mp4">
+      <source src="/pogoda-app/video.mp4" type="video/mp4">
     </video>
   
     <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
   </body>
   <style>
     body {
@@ -32,7 +32,7 @@
       justify-content: center;
       
       /* Фоновая картинка */
-      background-image: url('/1pic.jpg');
+      background-image: url('/pogoda-app/1pic.jpg');
       background-size: cover;        /* растягивает на весь экран */
       background-position: center;   /* центрирует */
       background-repeat: no-repeat;  /* не повторяет */
