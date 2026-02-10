@@ -4,7 +4,7 @@
 <div>
   <h1> ПОГОДА СЕЙЧАС    </h1>
  
-  <button @click="callSearch">поиск города</button>
+  <button @click="callSearch">ЖМИ показать погоду</button>
   <input v-model="searchTown" @keyup.enter="callSearch" placeholder="введите город(по-русски/английски)"></input>
 
 </div>
