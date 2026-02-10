@@ -30,9 +30,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
-},
-{
-  "scripts": {
-    "build": "vite build"
-  }
 }
